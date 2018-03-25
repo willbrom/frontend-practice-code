@@ -1,3 +1,14 @@
-#header {
-  color: red;
+header {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#logo {
+  height: 50px;
+  float: left;
+}
+
+.header-list {
+  float: right;
+  list-style: none;
 }

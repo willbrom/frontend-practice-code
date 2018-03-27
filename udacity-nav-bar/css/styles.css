@@ -1,14 +1,28 @@
+body {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+
 header {
+  height: 6rem;
+  max-width: 73.75rem;
   margin-right: auto;
   margin-left: auto;
 }
 
-#logo {
-  height: 50px;
+.header_navbar--logo {
   float: left;
+  display: block;
+  top: 50%;
+  margin-right: 20px;
+  box-sizing: inherit;
 }
 
-.header-list {
-  float: right;
-  list-style: none;
+.header_navbar--navigation {
+  float: left;
+  display: block;
+  position: relative;
+  top: 50%;
+  box-sizing: inherit;
+  width: 74%;
 }
